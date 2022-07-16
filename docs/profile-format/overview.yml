@@ -65,7 +65,7 @@ ProxyHTTP = http, 1.2.3.4, 443, username, password
 ProxyHTTPS = https, 1.2.3.4, 443, username, password, skip-cert-verify=true, sni=www.google.com
 
 # socks5 proxy
-ProxySOCKS5 = socks5, 1.2.3.4, 443, username, password, udp-relay=false
+ProxySOCKS5 = socks5, 20.24.213.90, 1080, 111, 111, udp-relay=true
 
 # socks5 over tls proxy
 ProxySOCKS5TLS = socks5-tls, 1.2.3.4, 443, username, password, skip-cert-verify=true, sni=www.google.com
